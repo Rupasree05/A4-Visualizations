@@ -8,7 +8,7 @@ from mpl_toolkits.mplot3d import Axes3D
 st.title("📊 1D, 2D & 3D Visualization Explorer")
 
 # File uploader
-uploaded_file = st.file_uploader("C:\Users\User\Desktop\Rupa Sree")
+uploaded_file = st.file_uploader("C:/Users/User/Desktop/Rupa Sree")
 
 if uploaded_file is not None:
     df = pd.read_csv(uploaded_file)
